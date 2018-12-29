@@ -11,9 +11,9 @@
 
 <!-- desktop nav bar -->
 <div class="row hide-on-med-and-down">
-    <h6 class="right-align col m1 offset-m7 btn-flat">CALENDAR</h6>
-    <h6 class="right-align col m1 btn-flat">BIOGRAPHY</h6>
-    <h6 class="right-align col m1 btn-flat grey">LATEST</h6>
+    <h6 class="right-align col m1 offset-m7 btn-flat"><a class="black-text" href="#calendar">CALENDAR</a></h6>
+    <h6 class="right-align col m1 btn-flat"><a class="black-text" href="#bio">BIOGRAPHY</a></h6>
+    <h6 class="right-align col m1 btn-flat grey"><a class="black-text" href="#latest">LATEST</a></h6>
     <h6 class="right-align col m1 btn-flat">CONTACT</h6>
 </div>
 <!-- end desktop nav bar -->
@@ -29,6 +29,13 @@
   <a href="#" data-target="slide-out" class=" black-text col s2 offset-s10 sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
 </div>
 <!-- end tablet side nav -->
-
 <div class="divider grey"></div>
 <!-- END HEADER AND NAV BAR -->
+
+<app-latest id="latest"></app-latest>
+<div class="divider grey"></div>
+<app-bio id="bio"></app-bio>
+<div class="divider grey"></div>
+<app-engagements id="calendar"></app-engagements>
+<div class="divider grey"></div>
+

@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { BioComponent } from './bio/bio.component';
 import { EngagementsComponent } from './engagements/engagements.component';
 import { LatestComponent } from './latest/latest.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LatestComponent } from './latest/latest.component';
     HomeComponent,
     BioComponent,
     EngagementsComponent,
-    LatestComponent
+    LatestComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
